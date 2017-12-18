@@ -53,7 +53,7 @@ WORKDIR /home/root/install
 
 # Install SciDB
 COPY conf/iquery.conf /home/root/conf/
-COPY install/scidb-16.9.0.db1a98f.tgz /home/root/install/
+COPY install/scidb-16.9.5.24119eb.tgz /home/root/install/
 COPY install/install_scidb.sh  /home/root/install/
 RUN chmod +x install_scidb.sh; sync && export HOSTNAME=$SCIDB_HOSTNAME && /etc/init.d/ssh start && echo $(grep $(hostname) /etc/hosts | cut -f1) $SCIDB_HOSTNAME >> /etc/hosts && echo $SCIDB_HOSTNAME > /etc/hostname  && ./install_scidb.sh
 

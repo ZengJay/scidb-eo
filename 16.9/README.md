@@ -60,7 +60,7 @@ To clean up your system, you can remove containers and the image with
 | install/install_gdal.sh | Installs GDAL with SciDB driver |
 | install/install_R.sh | Installs the latest R version  |
 | install/install_streaming.sh | Installs SciDB's streaming plugin |
-| install/scidb-16.9.0.db1a98f.tgz| SciDB 16.9 source code |
+| install/scidb-16.9.5.24119eb.tgz| SciDB 16.9 source code |
 | install/install.packages.R | Installs relevant R packages |
 | conf/ | Directory for configuration files |
 | conf/scidb_docker.ini | SciDB configuration file |
@@ -73,7 +73,7 @@ To clean up your system, you can remove containers and the image with
 
 
 ## License
-This Docker image contains source code of SciDB in install/scidb-16.9.0.db1a98f.tgz. SciDB is copyright (C) 2008-2017 SciDB, Inc. and licensed under the AFFERO GNU General Public License as published by the Free Software Foundation. You should have received a copy of the AFFERO GNU General Public License. If not, see <http://www.gnu.org/licenses/agpl-3.0.html>
+This Docker image contains source code of SciDB in install/scidb-16.9.5.24119eb.tgz. SciDB is copyright (C) 2008-2017 SciDB, Inc. and licensed under the AFFERO GNU General Public License as published by the Free Software Foundation. You should have received a copy of the AFFERO GNU General Public License. If not, see <http://www.gnu.org/licenses/agpl-3.0.html>
 
 License of this Docker image can be found in the `LICENSE`file.
 

@@ -63,7 +63,7 @@ echo "PATH=${SCIDB_INSTALL_PATH}/bin:$PATH" >> /etc/profile # appending does not
 
 
 mkdir -p $SCIDB_SOURCE_PATH
-tar -xzf /home/root/install/scidb-16.9.0.db1a98f.tgz -C $SCIDB_SOURCE_PATH
+tar -xzf /home/root/install/scidb-16.9.5.24119eb.tgz -C $SCIDB_SOURCE_PATH
 
 cd  $SCIDB_SOURCE_PATH
 mkdir -p $SCIDB_BUILD_PATH
